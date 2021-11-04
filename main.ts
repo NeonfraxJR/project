@@ -50,9 +50,9 @@ input.onGesture(Gesture.Shake, function () {
     music.ringTone(220)
 })
 music.setVolume(224)
+basic.showIcon(IconNames.Asleep)
 input.setSoundThreshold(SoundThreshold.Loud, 128)
 basic.showIcon(IconNames.Happy)
-basic.showIcon(IconNames.Asleep)
 basic.forever(function () {
 	
 })
